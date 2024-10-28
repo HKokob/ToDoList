@@ -1,0 +1,71 @@
+body{
+  background-color: rgba(0, 0, 0, 0.863);
+}
+.To-do-list{
+
+font-family: 'Times New Roman', Times, serif; 
+text-align: center;
+margin-top: 100px;
+}
+h2{
+font-size: 4rem;
+color: white;
+} 
+button{
+   font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+  transition: background-color 0.5s ease ;
+} 
+.Add-button{
+  background-color: hwb(101 2% 55%);
+} 
+.Add-button:hover{
+  background-color: hwb(101 2% 20%);
+}
+.Delete-button{
+  background-color: hwb(0 2% 55%);
+} 
+.Delete-button:hover{
+  background-color: hwb(0 2% 20%);
+} 
+.Move-button{
+  background-color: hwb(246 4% 38%);
+} 
+.Move-button:hover{
+  background-color: hwb(246 4% 15%);
+}
+ input[type="text"]{
+font-size: 1.6rem;
+padding: 10px;
+border: 2px solid rgba(0, 0, 0, 0.384);
+border-radius: 15px; 
+color: rgba(0, 0, 0, 0.473);
+ }
+ ol{
+  padding: 0;
+ } 
+ li{
+font-size: 1.6rem;
+font-weight: bold;
+margin-bottom: 10px; 
+background-color: rgba(245, 242, 242, 0.993);
+border: 3px solid rgba(255, 153, 153, 0.705);
+border-radius: 15px;
+display: flex;
+align-items: center;
+ }
+ .text{
+  flex: 1;
+ } 
+ .Delete-button, .Move-button{
+      padding: 6px 10px;
+      font-size: 1rem;
+      margin-left:10px ;
+      margin-top: 5px;
+      margin-bottom: 5px;
+
+ }
